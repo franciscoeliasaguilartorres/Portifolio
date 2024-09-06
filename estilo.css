@@ -1,0 +1,108 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão da página */
+    background-color: #f0f0f5; /* Define a cor de fundo da página */
+    color: #333; /* Define a cor do texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+    line-height: 1.6; /* Define o espaçamento entre linhas */
+}
+
+/* Container principal para centralizar o conteúdo */
+.container {
+    max-width: 800px; /* Define a largura máxima */
+    margin: 20px auto; /* Centraliza o container horizontalmente */
+    padding: 20px; /* Adiciona preenchimento interno */
+    background-color: #ffffff; /* Fundo branco para o conteúdo */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para destacar o container */
+}
+
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px; /* Espaço inferior para separar do restante do conteúdo */
+}
+
+
+/* Estiliza a imagem de perfil */
+.profile-pic {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    border-radius: 50%; /* Deixa a imagem em formato circular */
+    width: 150px; /* Define o tamanho da imagem */
+    height: 150px; /* Define o tamanho da imagem */
+    object-fit: cover; /* Ajusta a imagem para caber dentro de um quadrado */
+}
+
+
+/* Estilos para os títulos das seções */
+h2 {
+    color: #0056b3; /* Cor azul para os títulos */
+    border-bottom: 2px solid #ddd; /* Linha inferior decorativa */
+    padding-bottom: 5px; /* Espaçamento inferior */
+    margin-top: 30px; /* Espaçamento superior */
+}
+
+/* Estilo para listas */
+ul {
+    padding-left: 20px; /* Recuo para listas */
+    list-style-type: disc; /* Marcadores de lista em círculo */
+}
+
+a {
+    color: #0056b3; /* Cor azul para links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
+
+/* Estilo para o subtítulo */
+.subtitle {
+    font-size: 1.1em; /* Tamanho ligeiramente maior */
+    color: #666; /* Cor cinza para subtítulo */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+/* Estilos para a galeria de certificados */
+.certificado-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens na galeria */
+    margin-top: 20px; /* Espaço superior */
+}
+
+.certificado {
+    max-width: 200px; /* Largura máxima das imagens */
+    border: 2px solid #ddd; /* Borda ao redor das imagens */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ao redor das imagens */
+}
+
+/* Estilos para a galeria de formação acadêmica */
+.formacao-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as imagens */
+    justify-content: center; /* Centraliza as imagens na galeria */
+    margin-top: 20px; /* Espaço superior */
+}
+
+.formacao {
+    max-width: 200px; /* Largura máxima das imagens */
+    border: 2px solid #ddd; /* Borda ao redor das imagens */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ao redor das imagens */
+}
+
+/* Estilos gerais para imagens */
+img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+}
+
+
